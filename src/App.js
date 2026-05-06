@@ -59,17 +59,21 @@ export default function App() {
     fetch(API_URL)
       .then((res) => res.json())
       .then((data) => {
+        if (!data || data.length === 0) return;
+  
         const formatted = data.slice(1).map((row) => ({
           date: row[0],
           percentage: row[1],
           emotion: row[2],
           notes: row[3]
         }));
+  
         setJournal(formatted.reverse());
       })
-      .catch((err) => console.error("Fetch error", err));
+      .catch((err) => {
+        console.error("Fetch error:", err);
+      });
   }, []);
-
   // ✅ SAVE DATA
   const handleSave = async () => {
     if (!emotion) {
