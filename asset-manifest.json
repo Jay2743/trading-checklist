@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/trading-checklist/static/css/main.31d6cfe0.css",
-    "main.js": "/trading-checklist/static/js/main.35f88c3d.js",
+    "main.js": "/trading-checklist/static/js/main.3f9aae39.js",
     "static/js/453.bdc08ad4.chunk.js": "/trading-checklist/static/js/453.bdc08ad4.chunk.js",
     "index.html": "/trading-checklist/index.html",
-    "main.35f88c3d.js.map": "/trading-checklist/static/js/main.35f88c3d.js.map",
+    "main.3f9aae39.js.map": "/trading-checklist/static/js/main.3f9aae39.js.map",
     "453.bdc08ad4.chunk.js.map": "/trading-checklist/static/js/453.bdc08ad4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.35f88c3d.js"
+    "static/js/main.3f9aae39.js"
   ]
 }
