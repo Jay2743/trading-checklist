@@ -16,20 +16,18 @@ import {
 const API_URL = "https://script.google.com/macros/s/AKfycbx64JrwjFFCIU_E_Jue1eD4OxkNthCmr-NGmUQUM92EWyRoZ5Q-py9HfRaWfGhYbXbRsg/exec";
 
 const checklistItems = [
-  "Price reached my pre-marked zone",
-  "Zone marked before market",
   "Market is Trending",
-  "Not influenced by news/fear",
-  "Clear rejection candle (5 min)",
-  "1-min pullback confirmation",
-  "Pull Back til above fib 0.5 level",
+  "Price reached my pre-marked Level",
+  "Proper Pull Back ?",
+  "Created Fresh Liquidity ?",
+  "Major Liquidity Taken on premium ?",
+  "Is target setted on premium ?",
+  "Is cross over happen on Index and Premium with marobozu ?",
+  "SL defined (₹4–₹5) of previous candle low?",
   "Any POI candle on both index and premium for entry" ,
-  "Bias is fixed (CE/PE)",
-  "Premium between ₹15–₹25",
-  "SL defined (₹4–₹5)",
+  "Premium between ₹65–₹95",
   "Risk ≤ ₹200",
-  "Target ≥ 2x SL",
-  "SL & Target set properly"
+  "Target ≥ 2x SL"
 ];
 
 export default function App() {
